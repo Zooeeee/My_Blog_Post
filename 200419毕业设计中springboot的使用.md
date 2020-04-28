@@ -10,7 +10,14 @@ categories: Java
 ---
 [项目地址](https://github.com/Zooeeee/Online_exam)
 #### 基本的项目结构(限于我当前的理解)
+1111111
+
 ![基本的项目结构](https://upload-images.jianshu.io/upload_images/11628766-0acc059ee71b8c30.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+333333333333333
+
+<img src="https://upload-images.jianshu.io/upload_images/11628766-0acc059ee71b8c30.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"/>
+
 * config 用于放置其他框架的配置java文件,例如我此处放置了jackson的配置,使得前台返回的null值会自动转换成空字符串
 * controller 用于放置控制类,MVC结构中C的功能,用于分发路由,接受参数,返回数据
 * Dao 用于放置数据访问对象,直接访问数据层
@@ -30,6 +37,7 @@ classpath:/resources
 classpath:/META-INF/resources
 ```
 ![resource](https://upload-images.jianshu.io/upload_images/11628766-fb635f16a3af9f5b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+<img src="https://upload-images.jianshu.io/upload_images/11628766-0acc059ee71b8c30.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"/>
 要注意的是其实图片是存放在target中的,如果只是在src中新建一个空目录,是不会在target中有对应的目录的,需要的要么是在空目录中放置一个文件,要么是判断有无目录,然后生成
 ![target](https://upload-images.jianshu.io/upload_images/11628766-cbe209297668486a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 #### 一些基本的注释
